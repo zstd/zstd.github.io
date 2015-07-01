@@ -66,7 +66,7 @@ So the URl generation code can be improved with the lines:
 
 ##Running the code sample
 
-There is a sample project at [GitHub](https://github.com/zstd/code.zstd.github.io/tree/master/aws-public-presigned-url) with functionality described above. 
+There is a sample project at [GitHub](https://github.com/zstd/aws-public-presigned-url) with functionality described above. 
 
 Project can be build with Maven. It contains special 'integration-test' which uses generated presigned URLs to upload file with different permissions and then check their availability.
 
@@ -75,5 +75,5 @@ In order to run the sample:
 * checkout/clone the project
 * go to **src/conf** directory and copy *template.properties* to *local.properties* file 
 * set your AWS credentials and bucket name in *local.properties*
-* run PresignedUrlForPutGeneratorIT
+* run [PresignedUrlForPutGeneratorIT] (https://github.com/zstd/aws-public-presigned-url/blob/master/src/main/java/io/github/zstd/blog/aws/PresignedUrlForPutGenerator.java)
 
